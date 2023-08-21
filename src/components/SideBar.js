@@ -1,12 +1,14 @@
-import {SideImage} from "./styles/SideBar.styles"
-import Steps from "./Steps"
+import { SideImage } from "./styles/SideBar.styles";
+import Steps from "./Steps";
 
 export const SideBar = () => (
-    <>
-        <SideImage>
-            <img src="./images/bg-sidebar-desktop.svg" alt="Design" />
-            <Steps />
-            {/* <Steps 
+  <>
+    <SideImage>
+      <img src="./images/bg-sidebar-desktop.svg" alt="Design" />
+      <Steps />
+
+      {/* This can also be one way to do this */}
+      {/* <Steps 
                 number = {1}
                 name = "Your Info"
             />
@@ -22,8 +24,6 @@ export const SideBar = () => (
                 number = {4}
                 name = "Summary"
             /> */}
-        </SideImage>
-
-    </>
-
-)
+    </SideImage>
+  </>
+);
